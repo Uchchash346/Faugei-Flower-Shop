@@ -1,8 +1,4 @@
-/* Global Styles */
 .container-area {
-  /* padding: 0;
-  margin: 0; */
-  /* max-width: 100%; */
   margin: auto;
   max-width: 1460px;
 }
@@ -10,19 +6,6 @@
 /* Hero Section */
 .hero-section-left-description {
   padding-top: 20px;
-}
-
-/* Plants Section */
-.plants-grid-area {
-  /* padding-top: 10px; */
-}
-
-.card-title-name {
-  /* padding-top: 10px; */
-}
-
-.plants-grid-item {
-  /* padding-top: 10px; */
 }
 
 /* Newsletter section */
