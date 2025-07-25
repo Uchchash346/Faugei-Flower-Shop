@@ -33,9 +33,11 @@
         </nav>
 
         <!-- Hero Section -->
-        <div class="hero-section flex place-content-between items-center h-[661px] max-sm:h-[345px]">
+        <div
+          class="hero-section flex place-content-between items-center h-[661px] max-sm:h-[345px] max-sm:hidden"
+        >
           <div class="hero-section-left w-[50%]">
-            <h1 class="text-6xl font-semibold max-sm:hidden">
+            <h1 class="text-6xl font-semibold">
               ALWAYS
               <span class="text-orange-600"
                 >FRESH <br />
@@ -43,7 +45,7 @@
               >
             </h1>
             <p
-              class="hero-section-left-description font-normal text-xl text-gray-500 max-sm:hidden"
+              class="hero-section-left-description font-normal text-xl text-gray-500"
             >
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
@@ -54,6 +56,33 @@
             class="hero-section-right max-sm:flex place-content-between items-center"
           >
             <img src="./assets//hero-flower.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Hero Section - Mobile Devices -->
+        <div
+          class="hero-section-right max-sm:flex place-content-between items-center lg:hidden"
+        >
+          <img src="./assets//hero-flower.png" alt="" />
+        </div>
+        <div
+          class="hero-section flex place-content-between items-center h-[661px] max-sm:h-[345px] lg:hidden"
+        >
+          <div class="hero-section-left w-[50%] lg:hidden max-sm:w-[100%] max-sm:ml-12">
+            <h1 class="text-6xl font-semibold">
+              ALWAYS
+              <span class="text-orange-600"
+                >FRESH <br />
+                FLOWERS</span
+              >
+            </h1>
+            <p
+              class="hero-section-left-description font-normal text-xl text-gray-500"
+            >
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh flowers that are perfect for any occasion.
+            </p>
           </div>
         </div>
       </header>
