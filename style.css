@@ -25,16 +25,22 @@
   padding-top: 10px;
 }
 
+/* Newsletter section */
 .newsletter-section {
   background-image: url("./assets/news-letter-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.subscribe-form{
-    width: 830px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    display: flex;
+.subscribe-form {
+  width: 830px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+/* Footer */
+.quick-links ul li {
+  padding-bottom: 12px;
 }
