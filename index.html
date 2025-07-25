@@ -14,18 +14,20 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="max-w-8xl container-area">
+  <body class="max-w-8xl container-area max-sm:max-w-[361px]">
     <div class="main-hero-section">
       <header class="header-section-are">
         <!-- Navigation Area -->
         <nav class="navigation-area">
-          <div class="flex">
+          <div class="flex place-content-between items-center">
             <img src="./assets/logo.png" alt="" class="" />
             <ul class="flex gap-8 text-xl">
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About Us</li>
-              <li><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</li>
+              <li class="max-sm:hidden">Home</li>
+              <li class="max-sm:hidden">Shop</li>
+              <li class="max-sm:hidden">About Us</li>
+              <li class="flex place-content-between items-center">
+                <i class="fa-solid fa-cart-shopping"></i> Cart ($56)
+              </li>
             </ul>
           </div>
         </nav>
