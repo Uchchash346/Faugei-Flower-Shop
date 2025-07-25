@@ -1,5 +1,5 @@
 /* Global Styles */
-.container-area{
+.container-area {
   /* padding: 0;
   margin: 0; */
   /* max-width: 100%; */
@@ -25,3 +25,16 @@
   padding-top: 10px;
 }
 
+.newsletter-section {
+  background-image: url("./assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe-form{
+    width: 830px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
